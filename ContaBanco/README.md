@@ -1,18 +1,9 @@
-## Getting Started
+## Descrição do projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Comecei importando a classe scanner para permitir entrada do usuário, após isso criei as variáveis conforme solicitado na descrição do projeto, em seguida optei por dividir em dois arquivos, um contendo a classe main e outro apenas com o método de criação da conta.
+O método criado recebe 4 valores como parâmetro, nome, conta, agência e saldo. Com o uso da classe scanner, passei os dados inseridos pelo usuário como parâmetro, Permitindo que os dados sejam inseridos via terminal pelo usuário, conforme solicitado na descrição do projeto.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Tecnlogia utilizada
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
