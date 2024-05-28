@@ -1,10 +1,21 @@
 ## Descrição do projeto
 
-Neste desafio separei em dois arquivos, um para a classe main e outro para criar a exceção "ParametrosInvalidosException".
-- No arquivo Contador criei o método ContaNúmeros, que recebe dois parâmetros inteiros, faz a iteração do primeiro parametro até o segundo e a condição para disparar a exception de parametro invalido.
-- Com a classe Scanner fiz com que os números passados como parametro fossem os digitados pelo usuário.
--Criei um loop while sempre verdadeiro para o usuário poder escrever um parametro novamente, no caso dele ter colocado o primeiro maior, se o primeiro parametro digitado for maior ele continua o looping e se não for ele para o looping e vai para a chamada do método, onde mostra a contagem dos números.
--Usei também um try catch para tratar o erro se caso o usuário digitar o primeiro parâmetro maior que o segundo.
+- Arquivo Contador:
+
+Criei o método ContaNumeros, que recebe dois parâmetros inteiros. Esse método realiza a iteração do primeiro parâmetro até o segundo e contém a lógica para lançar a exceção ParametrosInvalidosException se o primeiro parâmetro for maior que o segundo.
+
+- Arquivo ParametrosInvalidosException:
+
+Defini uma exceção personalizada que é lançada quando a condição de parâmetros inválidos é detectada.
+
+- Entrada do Usuário:
+Utilizei a classe Scanner para capturar os números digitados pelo usuário.
+
+- Repetição da Entrada:
+Implementei um loop while que permite ao usuário tentar novamente caso o primeiro parâmetro digitado seja maior que o segundo. O loop continua até que uma entrada válida seja fornecida, momento em que a contagem dos números é exibida.
+
+- Tratamento de Erros:
+Usei um bloco try-catch para capturar e tratar a exceção ParametrosInvalidosException caso o usuário insira um primeiro parâmetro maior que o segundo.
 
 ## Tecnologia utilizada
 
