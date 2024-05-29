@@ -1,7 +1,25 @@
-## Descrição do projeto
+Descrição do Desafio
+Neste desafio, separei o código em dois arquivos: um para a classe principal (Contador) e outro para a definição da exceção personalizada (ParametrosInvalidosException).
 
-Utilizei a classe scanner para permitir a inserção de dados do usuário, após criei as variáveis conforme solicitado na descrição do projeto, em seguida optei por dividir em dois arquivos, um contendo a classe main e o outro contendo o método de criação da conta.
-O método criado recebe 4 valores como parâmetro: nome, conta, agência e saldo. Através deste método é possivel a inserção de dados conforme escolhido pelo usuário no momento de criação da conta.
+Arquivo Contador:
+
+Criei o método ContaNumeros, que recebe dois parâmetros inteiros. Esse método realiza a iteração do primeiro parâmetro até o segundo e contém a lógica para lançar a exceção ParametrosInvalidosException se o primeiro parâmetro for maior que o segundo.
+
+- Arquivo ParametrosInvalidosException:
+  
+Defini uma exceção personalizada que é lançada quando a condição de parâmetros inválidos é detectada.
+
+- Entrada do Usuário:
+  
+Utilizei a classe Scanner para capturar os números digitados pelo usuário.
+
+- Repetição da Entrada:
+  
+Implementei um loop while que permite ao usuário tentar novamente caso o primeiro parâmetro digitado seja maior que o segundo. O loop continua até que uma entrada válida seja fornecida, momento em que a contagem dos números é exibida.
+
+- Tratamento de Erros:
+  
+Usei um bloco try-catch para capturar e tratar a exceção ParametrosInvalidosException caso o usuário insira um primeiro parâmetro maior que o segundo.
 
 ## Tecnlogia utilizada
 

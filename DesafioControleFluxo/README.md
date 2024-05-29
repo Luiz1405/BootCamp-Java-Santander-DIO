@@ -1,18 +1,17 @@
-## Getting Started
+## Descrição do projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Arquivo Contador:
 
-## Folder Structure
+Criei o método ContaNumeros, que recebe dois parâmetros inteiros. Esse método realiza a iteração do primeiro parâmetro até o segundo e contém a lógica para lançar a exceção ParametrosInvalidosException se o primeiro parâmetro for maior que o segundo.
 
-The workspace contains two folders by default, where:
+- Arquivo ParametrosInvalidosException: Defini uma exceção personalizada que é lançada quando a condição de parâmetros inválidos é detectada.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Entrada do Usuário: Utilizei a classe Scanner para capturar os números digitados pelo usuário.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Repetição da Entrada: Implementei um loop while que permite ao usuário tentar novamente caso o primeiro parâmetro digitado seja maior que o segundo. O loop continua até que uma entrada válida seja fornecida, momento em que a contagem dos números é exibida.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Tratamento de Erros: Usei um bloco try-catch para capturar e tratar a exceção ParametrosInvalidosException caso o usuário insira um primeiro parâmetro maior que o segundo.
 
-## Dependency Management
+## Tecnologia utilizada
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
