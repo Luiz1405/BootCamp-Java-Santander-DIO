@@ -13,6 +13,7 @@ public class Tarefa {
         this.descricao = novaDescricao;
     }
 
+    @Override
     public String toString(){
         return "\nDescrição: " + descricao;
     }
