@@ -1,3 +1,4 @@
+package Compras;
 public class Item {
 
     private String nome;
@@ -31,7 +32,7 @@ public class Item {
     }
 
     public void setQuantidade(int novaQuantidade){
-        this.quantidade = quantidade;
+        this.quantidade = novaQuantidade;
     }
 
     @Override

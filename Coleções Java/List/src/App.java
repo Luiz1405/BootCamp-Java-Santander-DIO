@@ -1,3 +1,6 @@
+import Compras.CarrinhoDeCompras;
+import Tarefas.ListaTarefas;
+
 public class App {
     public static void main(String[] args)  {
         ListaTarefas listaTarefa = new ListaTarefas();
