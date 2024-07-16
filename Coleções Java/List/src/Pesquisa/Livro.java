@@ -1,4 +1,4 @@
-package Catalogos;
+package Pesquisa;
 import java.util.List;
 import java.util.ArrayList;
 
