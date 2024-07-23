@@ -1,4 +1,4 @@
-package OperacoesBasicas;
+package Map.OperacoesBasicas;
 public class Item {
 
     private String nome;

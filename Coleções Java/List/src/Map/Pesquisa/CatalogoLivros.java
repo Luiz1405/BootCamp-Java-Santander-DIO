@@ -1,4 +1,4 @@
-package Pesquisa;
+package Map.Pesquisa;
 import java.util.ArrayList;
 import java.util.List;
 
