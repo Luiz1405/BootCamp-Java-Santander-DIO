@@ -1,4 +1,4 @@
-package Map.OperacoesBasicas;
+package List.OperacoesBasicas;
 import java.util.List;
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Map.Ordenacao;
+package List.Ordenacao;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
